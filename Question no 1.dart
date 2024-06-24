@@ -1,5 +1,7 @@
 // Q1
-void checkSquareOrRectangle(int length, int breadth) {
+void main() {
+  int length = 5;
+  int breadth = 10;
   if (length == breadth) {
     print('It is a square.');
   } else {

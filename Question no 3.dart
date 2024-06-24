@@ -1,5 +1,5 @@
 // Q3
-void checkAttendance(int classesHeld, int classesAttended) {
+void main(classesHeld, int classesAttended) {
   double attendancePercentage = (classesAttended / classesHeld) * 100;
   print('Attendance: ${attendancePercentage.toStringAsFixed(2)}%');
   if (attendancePercentage >= 75) {
