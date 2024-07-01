@@ -1,10 +1,11 @@
-// Q3
-void main(classesHeld, int classesAttended) {
-  double attendancePercentage = (classesAttended / classesHeld) * 100;
-  print('Attendance: ${attendancePercentage.toStringAsFixed(2)}%');
-  if (attendancePercentage >= 75) {
-    print('Student is allowed to sit in the exam.');
+//Q3
+void main() {
+  int ClassHeld = 20;
+  int ClassAttendend = 9;
+  double attendencePercentage = (ClassHeld / ClassAttendend) * 100;
+  if (attendencePercentage >= 75) {
+    print("Students allow in exam");
   } else {
-    print('Student is not allowed to sit in the exam.');
+    print("Student are not allow in exam");
   }
 }

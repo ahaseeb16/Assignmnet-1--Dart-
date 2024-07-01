@@ -1,10 +1,10 @@
-// Q1
+//Q1
 void main() {
-  int length = 5;
-  int breadth = 10;
+  int length = 45;
+  int breadth = 69;
   if (length == breadth) {
-    print('It is a square.');
+    print("It's asquare");
   } else {
-    print('It is a rectangle.');
+    print("It's a rectangle");
   }
 }
